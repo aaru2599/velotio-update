@@ -1,0 +1,15 @@
+.react-multi-carousel-dot-list {
+    position: absolute;
+    bottom: 150px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .react-multiple-carousel__arrow{
+    z-index: 0;
+  }
+
+  
