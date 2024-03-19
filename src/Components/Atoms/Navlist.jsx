@@ -66,9 +66,11 @@ const NavList = styled.div`
   align-items: center;
   justify-content: center;
   gap: 30px;
-  padding-top: 50px;
-  color: white;
-
+  @media only screen and (max-width: 768px) {
+    padding-top: 50px;
+    color: white;
+  
+    }
   .menu-icon {
     display: none;
     cursor: pointer;
