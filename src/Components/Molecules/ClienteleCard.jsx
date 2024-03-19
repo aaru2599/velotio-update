@@ -6,41 +6,37 @@ const ClienteleCard = () => {
   // console.log();
   return (
     <Box>
-      <>
-        {data.map((item, index) => {
-          return (
-            <Main style={item.link ? { cursor: "pointer" } : {}} key={index}>
-              <Imageshow>
-                <ProductImg
-                  src={item.Productimg}
-                  alt="clientlogo"
-                  className="clientimg"
-                />
-                <CardTitle className="title">{item.title}</CardTitle>
-              </Imageshow>
+      {data.map((item, index) => {
+        return (
+          <Main style={item.link ? { cursor: "pointer" } : {}} key={index}>
+            <Imageshow>
+              <ProductImg
+                src={item.Productimg}
+                alt="clientlogo"
+                className="clientimg"
+              />
+              <CardTitle className="title">{item.title}</CardTitle>
+            </Imageshow>
 
-              <Status>
-                {item.Percentage.map((item, index) => {
-                  return (
-                    <PercentageData key={index}>
-                      <Boxpercenatge>
-                        <BoxElementTitle>
-                          {item.globalpercentage}
-                        </BoxElementTitle>
-                        <BoxElementDescription>
-                          {item.about}
-                        </BoxElementDescription>
-                      </Boxpercenatge>
-                    </PercentageData>
-                  );
-                })}
-              </Status>
+            <Status>
+              {item.Percentage.map((item, index) => {
+                return (
+                  <PercentageData key={index}>
+                    <Boxpercenatge>
+                      <BoxElementTitle>{item.globalpercentage}</BoxElementTitle>
+                      <BoxElementDescription>
+                        {item.about}
+                      </BoxElementDescription>
+                    </Boxpercenatge>
+                  </PercentageData>
+                );
+              })}
+            </Status>
 
-              <CardDescription className="desc">{item.desc}</CardDescription>
-            </Main>
-          );
-        })}
-      </>
+            <CardDescription className="desc">{item.desc}</CardDescription>
+          </Main>
+        );
+      })}
     </Box>
   );
 };
@@ -81,16 +77,24 @@ const Imageshow = styled.div`
 `;
 
 const Box = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 22px;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(
+      1,
+      minmax(0, 1fr)
+    ); /* Mobile layout with one card per row */
+    /* Mobile layout with one card per row */
+  }
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 `;
 
 const Main = styled.div`
   background-color: #fff;
-  width: 500px;
+  // width: 350px;
   border: 1px solid #eaeaea;
   border-radius: 16px;
   height: 230px;
@@ -98,6 +102,10 @@ const Main = styled.div`
   transition: 0.3s;
   &:hover {
     background-color: #f0e2ff;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%; /* Adjust width for larger screens */
+    height: 240px;
   }
 `;
 

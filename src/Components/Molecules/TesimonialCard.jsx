@@ -64,6 +64,9 @@ const Conatiner = styled.div`
   display: grid;
   grid-template-columns: repeat(2, minmax(500px, 1fr));
   gap: 22px;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* Mobile layout with one card per row */
+  }
 `;
 
 const Box = styled.div`
@@ -73,6 +76,9 @@ const Box = styled.div`
   background-color: white;
   color: #383838;
   padding: 32px;
+  @media (max-width: 768px) {
+    height:320px;
+    }
 
   .Position {
     font-size: 12px;
@@ -86,7 +92,12 @@ const Imgbox = styled.div`
 
   .companyimg {
     width: 90px;
+
     border-radius: 4px;
+    @media (max-width: 768px) {
+      // width:50px;
+
+      }
   }
 
   .Profileimg {

@@ -15,13 +15,6 @@ const GetInTouchSection = () => {
         height={200}
         alt=""
       />
-      {/* <img
-        className="bottom-image"
-        width={300}
-        height={300}
-        src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/5d1c4ba54cf9cb28e75a2d23_line-circle-bg_2.svg"
-        alt=""
-      /> */}
 
       <div>
         <SecHeading heading={"Take the next step"} />
@@ -46,18 +39,19 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 50px;
-  .top-image{
+  .top-image {
     position: absolute;
     top: 50px;
     right: 50px;
-    transform:rotate(90deg);
+    transform: rotate(90deg);
     // z-index: -1;
-  }
-  .bottom-image{
     
+  }
+  .bottom-image {
     position: absolute;
     bottom: -100px;
-    z-index:10;
+    z-index: 10;
     left: -100px;
   }
+
 `;

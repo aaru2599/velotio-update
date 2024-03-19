@@ -6,7 +6,7 @@ import SecDescription from "../Atoms/SecDescription";
 import { TbExternalLink } from "react-icons/tb";
 const TechiesCard = () => {
   return (
-    <div>
+    <Wrapper>
       <Card>
         <FirstSec>
           <Title>
@@ -114,7 +114,7 @@ const TechiesCard = () => {
           </CardColumn>
         </Cardholder>
       </Card>
-    </div>
+    </Wrapper>
   );
 };
 
@@ -136,6 +136,10 @@ const Card = styled.div`
   justify-content: space-between ;
   // gap:20px
 
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
   .title {
     font-size: 30px;
     font-weight: 400;
@@ -257,4 +261,10 @@ const Para = styled.div`
 `;
 const FirstSec = styled.div`
   max-width: 650px;
+  @media (max-width: 768px) {
+    margin-bottom: 0;
+  }
+`;
+const Wrapper= styled.div`
+
 `;

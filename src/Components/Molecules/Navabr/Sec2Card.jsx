@@ -46,6 +46,9 @@ const Container = styled.div`
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(3, minmax(380px, 1fr));
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* Mobile layout with one card per row */
+  }
 `;
 
 const Card = styled.div`

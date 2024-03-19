@@ -6,154 +6,152 @@ import SecDescription from "../Atoms/SecDescription";
 const CertificationComponent = () => {
   return (
     <MainContainer className="section section-gray-6">
-      <div className="container">
-        <div className="row-new row-new-tablet-vertical">
-          <div className="column-26">
-            <div className="holder-title-26">
-              <div className="line-79"></div>
-              <SecHeading heading={"Certifications"} />
-            </div>
-            <SecDescription
-              firstPara={
-                "At Velotio, our engineers keep sharpening their skills and expertise so our customers can access best industry practices and the latest technologies."
-              }
-            />{" "}
+      <div className="row-new row-new-tablet-vertical">
+        <div className="column-26">
+          <div className="holder-title-26">
+            <div className="line-79"></div>
+            <SecHeading heading={"Certifications"} />
           </div>
-          <div className="column-72">
-            <div className="column-gray-line">
-              <div className="box-20-1">
-                <img
-                  src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/6177191691d6a1995ed7f72b_Bitmap%20(34)%20(1).png"
-                  loading="lazy"
-                  alt=""
-                  width="120"
-                  className="img-700"
-                />
-              </div>
+          <SecDescription
+            firstPara={
+              "At Velotio, our engineers keep sharpening their skills and expertise so our customers can access best industry practices and the latest technologies."
+            }
+          />{" "}
+        </div>
+        <div className="column-72">
+          <div className="column-gray-line">
+            <div className="box-20-1">
               <img
-                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/6177191691d6a1995ed7f72b_Bitmap%20(34)%20(1).png"
                 loading="lazy"
                 alt=""
+                width="120"
+                className="img-700"
               />
-              <div className="box-20-1">
-                <img
-                  src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771d9f73811a154e26125d_Group%20588%20(2)%20(1).png"
-                  loading="lazy"
-                  alt=""
-                  width="90"
-                  className="img-700"
-                />
-              </div>
-              <img
-                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
-                loading="lazy"
-                alt=""
-              />
-              <div className="box-20-1">
-                <img
-                  src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/617719e07e2907403cb40446_Group%20587%20(1).png"
-                  loading="lazy"
-                  alt=""
-                  width="90"
-                  className="img-700"
-                />
-              </div>
-              <img
-                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
-                loading="lazy"
-                alt=""
-              />
-              <div className="box-20-1">
-                <img
-                  src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/617719dddd3e48b10bc8dacd_Bitmap%20Copy%20(3)%20(1).png"
-                  loading="lazy"
-                  alt=""
-                  width="95"
-                  className="img-700"
-                />
-              </div>
-              <img
-                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
-                loading="lazy"
-                alt=""
-              />
-              <div className="box-20-1">
-                <img
-                  src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a2a1ac5714b8158e209_Bitmap%20Copy%20(4)%20(1).png"
-                  loading="lazy"
-                  alt=""
-                  width="95"
-                  className="img-700"
-                />
-              </div>
             </div>
-            <div className="gray-line-column-67"></div>
-            <div className="column-gray-line">
-              <div className="box-20-1">
-                <img
-                  src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771912ae46d545f3437434_Bitmap%20Copy%20(2).png"
-                  loading="lazy"
-                  alt=""
-                  width="90"
-                  className="img-700"
-                />
-              </div>
+            <img
+              src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="box-20-1">
               <img
-                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771d9f73811a154e26125d_Group%20588%20(2)%20(1).png"
                 loading="lazy"
                 alt=""
+                width="90"
+                className="img-700"
               />
-              <div className="box-20-1">
-                <img
-                  src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/6177191091d6a169a3d7f6b5_Bitmap%20Copy%20(1)%20(1).png"
-                  loading="lazy"
-                  alt=""
-                  width="90"
-                  className="img-700"
-                />
-              </div>
+            </div>
+            <img
+              src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="box-20-1">
               <img
-                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/617719e07e2907403cb40446_Group%20587%20(1).png"
                 loading="lazy"
                 alt=""
+                width="90"
+                className="img-700"
               />
-              <div className="box-20-1">
-                <img
-                  src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/617715245b7759833ebd3357_Group%20586%20(1).png"
-                  loading="lazy"
-                  alt=""
-                  width="90"
-                  className="img-700"
-                />
-              </div>
+            </div>
+            <img
+              src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="box-20-1">
               <img
-                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/617719dddd3e48b10bc8dacd_Bitmap%20Copy%20(3)%20(1).png"
                 loading="lazy"
                 alt=""
+                width="95"
+                className="img-700"
               />
-              <div className="box-20-1">
-                <img
-                  src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771ae3d2be700f5c5a5e7a_Terraform-Award%20Copy%20(1).png"
-                  loading="lazy"
-                  alt=""
-                  width="90"
-                  className="img-700"
-                />
-              </div>
+            </div>
+            <img
+              src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="box-20-1">
               <img
-                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a2a1ac5714b8158e209_Bitmap%20Copy%20(4)%20(1).png"
                 loading="lazy"
                 alt=""
+                width="95"
+                className="img-700"
               />
-              <div className="box-20-1">
-                <img
-                  src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771b01b913c227d1c1ba01_Screenshot%202021-10-21%20at%2010.17.31%20AM%20Copy%20(1).png"
-                  loading="lazy"
-                  alt=""
-                  width="75"
-                  className="img-700"
-                />
-              </div>
+            </div>
+          </div>
+          <div className="gray-line-column-67"></div>
+          <div className="column-gray-line">
+            <div className="box-20-1">
+              <img
+                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771912ae46d545f3437434_Bitmap%20Copy%20(2).png"
+                loading="lazy"
+                alt=""
+                width="90"
+                className="img-700"
+              />
+            </div>
+            <img
+              src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="box-20-1">
+              <img
+                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/6177191091d6a169a3d7f6b5_Bitmap%20Copy%20(1)%20(1).png"
+                loading="lazy"
+                alt=""
+                width="90"
+                className="img-700"
+              />
+            </div>
+            <img
+              src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="box-20-1">
+              <img
+                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/617715245b7759833ebd3357_Group%20586%20(1).png"
+                loading="lazy"
+                alt=""
+                width="90"
+                className="img-700"
+              />
+            </div>
+            <img
+              src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="box-20-1">
+              <img
+                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771ae3d2be700f5c5a5e7a_Terraform-Award%20Copy%20(1).png"
+                loading="lazy"
+                alt=""
+                width="90"
+                className="img-700"
+              />
+            </div>
+            <img
+              src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771a3f9ebe514571cc86d2_Line%202%20Copy%202.svg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="box-20-1">
+              <img
+                src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/61771b01b913c227d1c1ba01_Screenshot%202021-10-21%20at%2010.17.31%20AM%20Copy%20(1).png"
+                loading="lazy"
+                alt=""
+                width="75"
+                className="img-700"
+              />
             </div>
           </div>
         </div>
@@ -188,6 +186,11 @@ overflow: hidden;
     align-items: center;
     display: flex;
     position: relative;
+    @media screen and (max-width: 768px) {
+      display:flex;
+      // gap:20px;
+      flex-direction:column;
+    }
 }
 .column-26 {
     width: 26%;
@@ -195,6 +198,9 @@ overflow: hidden;
     justify-content: center;
     align-items: flex-start;
     display: flex;
+    @media screen and (max-width: 768px) {
+      width:100%;
+    }
 }
 .column-72 {
     width: 72%;

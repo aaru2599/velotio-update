@@ -26,11 +26,15 @@ const BlogSection = () => {
 
 export default BlogSection;
 const BlogContainer = styled.div`
+ 
   display: grid;
-      grid-template-columns: repeat(3, minmax(250px, 1fr));
-      
-  // justify-content: center;
-  gap: 50px;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 22px;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(
+      1,
+      minmax(0, 1fr)
+    );
 `;
 
 const SectionContainer = styled.div`

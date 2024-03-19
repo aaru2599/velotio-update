@@ -56,6 +56,10 @@ const BoxContainer = styled.div`
   gap: 16px;
   align-items: center;
   padding: 62px 0;
+  @media screen and (max-width:768px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 `;
 
 const ImgTopRight = styled.img`
@@ -76,11 +80,16 @@ const Section = styled.div`
   align-content: baseline;
   // grid-template-columns: repeat(3, minmax(200px, 1fr));
   gap: 10px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
   @media screen and (min-width: 1200px) {
     /* Apply your styles here */
     /* For example: */
     width: calc(25% - 10px); /* Adjust width to fit 3 images per row with gap */
   }
+
 
   // justify-content: flex-end;
 `;
@@ -96,6 +105,12 @@ const Card = styled.div`
   background-color: white;
   border: 0.5px solid lightgray;
   border-radius: 12px;
+  @media screen and (max-width: 768px) {
+    max-width: calc(50% - 5px); /* Adjust width to fit two cards per row with gap */
+    height:150px;
+
+
+  }
 `;
 
 const ImgSec = styled.div``;
