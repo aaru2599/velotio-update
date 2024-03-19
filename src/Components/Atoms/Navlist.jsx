@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Listnav from "./Listnav";
 import Button from "./Button";
 import { useState } from "react";
+import { IoReorderThree } from "react-icons/io5";
+import { IoMdClose } from "react-icons/io";
 const list = [
   {
     title: "Services",
@@ -33,30 +35,39 @@ const Navlist = () => {
 
   return (
     <NavList isMobile={isMobile}>
-      <div className="menu-icon" onClick={handleToggleMobileMenu}>
-        <IoIosArrowDown />
-      </div>
+      {isMobile ? (
+        <div className="menu-icon" onClick={handleToggleMobileMenu}>
+          <IoMdClose/> 
+        </div>
+      ) : (
+        <div className="menu-icon" onClick={handleToggleMobileMenu}>
+          <IoReorderThree />
 
-      {list.map((item, index) => {
+        </div>
+      )}
+
+     <div className={`list ${isMobile ? "mobile" : ""}`}>
+     {list.map((item, index) => {
         return (
-          <div key={index} className={`list ${isMobile ? "mobile" : ""}`}>
+          <div className="list" key={index} >
             <Listnav item={item} />
           </div>
         );
       })}
-
-      <Button text="Contact us" />
+      <Button text="Contact us" className="contact-button" />
+     </div>
     </NavList>
   );
 };
 
 export default Navlist;
-
 const NavList = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
+  padding-top: 50px;
+  color: white;
 
   .menu-icon {
     display: none;
@@ -66,8 +77,8 @@ const NavList = styled.div`
   .list {
     display: flex;
     align-items: center;
-    gap: 2px;
-    justify-content: center;
+    gap: 20px;
+    // justify-content: center;
     cursor: pointer;
   }
 
@@ -81,6 +92,11 @@ const NavList = styled.div`
     .list {
       display: ${({ isMobile }) => (isMobile ? "flex" : "none")};
       flex-direction: column;
+      // gap: 10px;
+    }
+
+    .contact-button {
+      display: ${({ isMobile }) => (isMobile ? "none" : "block")};
     }
   }
 `;

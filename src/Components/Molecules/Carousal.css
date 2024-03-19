@@ -6,6 +6,10 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    @media (max-width: 768px) {
+      /* margin-top: 20px; */
+      display: none;
+    }
   }
   
   .react-multiple-carousel__arrow{

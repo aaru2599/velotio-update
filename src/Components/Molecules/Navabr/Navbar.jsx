@@ -89,8 +89,8 @@ const Nav = styled.header`
   width: 100%;
   height: 100px;
   @media (max-width: 768px) {
-    height: 80px; /* Adjust height for mobile view */
-    width:500px;
+    // height: 80px; /* Adjust height for mobile view */
+    // width:500px;
   }
 `;
 
