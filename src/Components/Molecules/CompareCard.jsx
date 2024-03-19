@@ -9,7 +9,7 @@ const imgUrl =
   "https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/5d12914c7a7a1a1dbdf1d66e_small-triangle-bg.svg?tr=rt-180";
 const CompareCard = () => {
   const data = CompetitiveAdv;
-  console.log("data", data);
+  //console.log("data", data);
   return (
     <MainSection>
       <ImgTopRight src={imgUrl} />

@@ -10,7 +10,7 @@ import "./Carousal.css";
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 const CarouselPage = () => {
-  console.log("section7");
+  //console.log("section7");
   const data = CarouselData;
   
 

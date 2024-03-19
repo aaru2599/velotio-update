@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { TbExternalLink } from "react-icons/tb";
 
 const Tag = ({ item }) => {
-  console.log("tagitem", item);
+  //console.log("tagitem", item);
   return (
     <Tagbox>
       {item.tags.map((tag, index) => {

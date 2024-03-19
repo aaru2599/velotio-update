@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const BlogCard = ({ data }) => {
-  console.log("blogdata", data);
+  //console.log("blogdata", data);
   return (
     <>
       {data.map((item, index) => {

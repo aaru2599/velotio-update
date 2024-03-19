@@ -67,7 +67,7 @@ const NavList = styled.div`
   justify-content: center;
   gap: 30px;
   @media only screen and (max-width: 768px) {
-    padding-top: 50px;
+    // padding-top: 50px;
     color: white;
   
     }

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const SecHeading = ({ heading }) => {
-  console.log("heading", heading);
+  //console.log("heading", heading);
   return (
     <Heading>
       <Line></Line>
