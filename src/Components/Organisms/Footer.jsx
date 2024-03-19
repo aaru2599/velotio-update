@@ -271,9 +271,19 @@ const Footer = () => {
 export default Footer;
 const FooterBottom=styled.div`
 margin-top:50px;
+@media (max-width: 768px) {
+  // display:none;
+  // padding-bottom:50px;
+}
+
+
 `
 const MiddleContainer = styled.div`
 margin-top:-100px
+@media (max-width: 768px) {
+  margin-top: 20px;
+  display:none;
+}
 
 `;
 const TopContainer = styled.div`
@@ -313,6 +323,14 @@ const TopContainer = styled.div`
     &:hover {
       color: white;
       cursor: pointer;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-holder-new {
+      flex-direction: column;
+      gap:20px;
+      
     }
   }
 `;
