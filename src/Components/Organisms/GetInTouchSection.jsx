@@ -33,6 +33,14 @@ const BoxContaniner = styled.div`
   display: flex;
   justify-content: center;
   gap: 100px;
+  
+  @media screen and (max-width: 768px) {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content:center;
+    align-items:center;
+  }
 `;
 const Container = styled.div`
   padding: 64px 0;
@@ -54,4 +62,8 @@ const Container = styled.div`
     left: -100px;
   }
 
+  @media screen and (max-width: 768px) {
+    display:flex;
+    flex:direction:column;
+  }
 `;

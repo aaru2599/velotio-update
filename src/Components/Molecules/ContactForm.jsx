@@ -35,6 +35,12 @@ const Input = styled.input`
     outline: 0.1px solid lightgreen;
     border: 0.5px solid #e2e2e2;
   }
+  
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    }
+  
+ 
 `;
 const TextArea = styled.textarea`
   width: 100%; /* Allow width to be changeable */
@@ -56,6 +62,10 @@ const FormContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  @media screen and (max-width: 768px) {
+    width: 100%; /* Allow width to be changeable */
+    // max-width: 500px; 
+    }
 `;
 const EmailContainer = styled.div`
   color: #82139e;
