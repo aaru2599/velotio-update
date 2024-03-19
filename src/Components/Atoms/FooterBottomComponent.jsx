@@ -47,6 +47,10 @@ border-top:1px solid #e9e9e9;
 align-items:center;
 margin-top:20px;
 padding:20px 0;
+@media (max-width: 768px) {
+  // margin-top: 20px;
+  // width:500px;
+}
 `;
 const LeftContainer=styled.div`
 display:flex;

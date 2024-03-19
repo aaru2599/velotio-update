@@ -126,7 +126,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="footer-box-holder-new">
+              <div className="footer-box-holder-new middle-next-footer">
                 <div className="footer-box-new footer-box-new-47">
                   <h4 className="footer-heading-small">Data and AI</h4>
 
@@ -272,17 +272,17 @@ export default Footer;
 const FooterBottom=styled.div`
 margin-top:50px;
 @media (max-width: 768px) {
-  // display:none;
-  // padding-bottom:50px;
+  display:none;
+  padding-bottom:50px;
 }
 
 
 `
 const MiddleContainer = styled.div`
-margin-top:-100px
+margin-top:-100px;
 @media (max-width: 768px) {
-  margin-top: 20px;
-  display:none;
+  /* margin-top: 20px; */
+  display: none;
 }
 
 `;
@@ -328,9 +328,12 @@ const TopContainer = styled.div`
 
   @media (max-width: 768px) {
     .footer-holder-new {
-      flex-direction: column;
-      gap:20px;
-      
+      // flex-direction: column;
+      // gap:20px;
+    .middle-next-footer{
+      display:none;
+    }  
     }
+
   }
 `;
