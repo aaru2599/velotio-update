@@ -26,6 +26,12 @@ const Navbar = () => {
     };
   }, []);
 
+  const scrollToTop=()=>{
+    window.scrollTo({
+      top:0,
+      behavior:"smooth",
+    })
+  }
   return (
     <div>
       <Nav
@@ -35,7 +41,9 @@ const Navbar = () => {
           borderBottom:`0.15px solid rgba(233,233,233,${showNavbar})`
         }}
       >
-        <LogoContainer>
+        <LogoContainer
+        onClick={scrollToTop}
+        >
           <img
             src="https://assets-global.website-files.com/5d121ce15cf154f8f7d91740/5d1c4e8e4cf9cb87ea5a31aa_menu.svg"
             loading="lazy"
@@ -66,6 +74,7 @@ export default Navbar;
 
 const LogoContainer=styled.div`
 position: relative;
+cursor:pointer;
 .logo-colored{
   position: absolute;
     top: 0%;
