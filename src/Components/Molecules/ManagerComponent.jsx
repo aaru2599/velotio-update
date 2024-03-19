@@ -47,6 +47,7 @@ const Container = styled.div`
   border-radius: 10px;
   display: flex;
   gap: 10px;
+  z-index: 10;
   padding: 20px 10px;
   flex-direction: column;
 `;

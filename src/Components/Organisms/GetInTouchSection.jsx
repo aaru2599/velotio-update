@@ -48,22 +48,26 @@ const Container = styled.div`
   flex-direction: column;
   gap: 50px;
   .top-image {
+    
     position: absolute;
     top: 50px;
     right: 50px;
     transform: rotate(90deg);
-    // z-index: -1;
+   
     
   }
   .bottom-image {
     position: absolute;
     bottom: -100px;
-    z-index: 10;
+    // z-index: 10;
     left: -100px;
   }
 
   @media screen and (max-width: 768px) {
     display:flex;
     flex:direction:column;
+    .top-image{
+      z-index: -1;
+    }
   }
 `;
