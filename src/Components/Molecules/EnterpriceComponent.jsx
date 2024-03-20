@@ -4,7 +4,7 @@ import { EnterpricesData } from "../Data/EnterpricesData";
 
 const EnterpriceComponent = () => {
   const data = EnterpricesData;
-  //console.log("data", data);
+  ////console.log("data", data);
   return (
     <Container>
       {data.map((item, index) => {

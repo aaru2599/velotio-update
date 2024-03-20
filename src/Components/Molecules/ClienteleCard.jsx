@@ -3,7 +3,7 @@ import { TbExternalLink } from "react-icons/tb";
 import { ClienteleData } from "../Data/ClienteleData";
 const ClienteleCard = () => {
   const data = ClienteleData;
-  // //console.log();
+  // ////console.log();
   return (
     <Box>
       {data.map((item, index) => {

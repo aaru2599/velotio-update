@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const CarouselSlide = ({ data }) => {
-  //console.log("carouseldata", data);
+  ////console.log("carouseldata", data);
   return (
     <Container>
       {data.map((item,index) => (

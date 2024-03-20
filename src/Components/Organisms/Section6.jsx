@@ -21,7 +21,9 @@ const Section6 = () => {
 
       <SecSubHeading normal={"Our"} bold={"Top Clientele"} />
 
+      <div className="clientele-card">
       <ClienteleCard />
+      </div>
     </MainSection>
   );
 };
@@ -30,4 +32,7 @@ export default Section6;
 
 const MainSection = styled.div` 
 padding:50px 0
+.clientele-card{
+padding-top:50px;
+}
 `;

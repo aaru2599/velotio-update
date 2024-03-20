@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const SecSubHeading = ({normal,bold}) => {
-    //console.log(normal,bold);
+    ////console.log(normal,bold);
   return (
     <Heading>{normal }   <span>{bold}</span>
     </Heading>
